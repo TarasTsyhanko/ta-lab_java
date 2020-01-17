@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ta_lab-Java" />
+        <module name="lab.epam.exceptions" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab_Game" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
