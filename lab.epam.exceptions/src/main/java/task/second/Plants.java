@@ -22,7 +22,7 @@ public class Plants {
                 this.type = types[i];
                 break;
             }else if (i == types.length-1){
-                throw new TypeException("Bad type");
+                throw new TypeException("Bad type",type);
             }
         }
 
