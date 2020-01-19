@@ -1,10 +1,25 @@
 import task.first.Rectangle;
-import task.second.ColorException;
+import task.second.Exceptions.ColorException;
 import task.second.Plants;
-import task.second.TypeException;
+import task.second.Exceptions.TypeException;
+
+import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) throws ColorException, TypeException {
+
+    private  static Plants plant(int size, String color, String type){
+
+        Plants plants = new Plants();
+
+        try {
+            plants = new Plants(size,color,type);
+        }catch (ColorException | TypeException e){
+            System.err.println(e.getMessage());
+            e.printStackTrace();
+        }
+        return plants;
+    };
+    public static void main(String[] args)  {
 
         Rectangle rectangle = new Rectangle();
         int a = rectangle.getNumberFromConsol();
@@ -12,11 +27,11 @@ public class Main {
         System.out.println("Rectangl square will be : " +rectangle.squareRectangle(a, b));
 
 
-        Plants[] plant = {new Plants(1, "WHITE", "FLOWER"),
-                new Plants(2, "BLUE", "BUSH"),
-                new Plants(3, "RED", "TREE"),
-                new Plants(4, "BLACK", "GRASS"),
-                new Plants(5, "RED", "FRUIT")};
+        Plants[] plant = {plant(1, "WHITE", "FLOWER"),
+                    plant(2, "BLUE", "BUSH"),
+                    plant(3, "RED", "TREE"),
+                    plant(4, "BLACK", "GRASS"),
+                    plant(5, "RED1", "FRUIT")};
 
     }
 }
