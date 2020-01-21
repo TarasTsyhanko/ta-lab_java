@@ -9,6 +9,7 @@
         <module name="hm.OOP" />
         <module name="lab_game" />
         <module name="lab.epam.exceptions" />
+        <module name="lab_hm_Logger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

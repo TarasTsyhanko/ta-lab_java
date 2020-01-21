@@ -2,84 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f8a68e-216c-49ce-8ea5-8e4d5f350fce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hm.OOP/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab.epam.exceptions/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/ColorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/Exceptions/ColorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/Plants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/TypeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/Exceptions/TypeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab.epam.exceptions/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/target/classes/task/second/ColorException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/target/classes/task/second/Plants.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab.epam.exceptions/target/classes/task/second/Plants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.epam.exceptions/target/classes/task/second/TypeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/base/Custumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/base/Custumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/base/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/base/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/base/Hypermacret.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/base/Hypermacret.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/departmentofgoods/ElectricDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/departmentofgoods/ElectricDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/departmentofgoods/PaintAndVarnish.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/departmentofgoods/PaintAndVarnish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/departmentofgoods/Plumbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/departmentofgoods/Plumbing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/departmentofgoods/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/departmentofgoods/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/departmentofgoods/WoodProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/departmentofgoods/WoodProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Bath.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Bath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Bed.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Bed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Bowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Bowl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Dor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Dor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Freedg.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Freedg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Laminate.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Laminate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Paint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Varnish.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Varnish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/VashingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/VashingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/OOP/hypermarcet/goods/Washbasin.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/goods/Washbasin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/GameField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/Logic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/box/Coler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/box/Figura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/box/Horse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/box/King.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/box/Officer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/box/Pawn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/box/Queene.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/NEW/box/Tour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/chass/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/chass/Play.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/chass/Rules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/chass/Visualization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/tic/tac/toe/Actions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/tic/tac/toe/Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/tic/tac/toe/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/tic/tac/toe/Rules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/tic/tac/toe/Run.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/base/Custumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/base/Employee$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/base/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/base/Hypermacret.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/departmentofgoods/ElectricDevice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/departmentofgoods/PaintAndVarnish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/departmentofgoods/Plumbing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/departmentofgoods/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/departmentofgoods/WoodProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Bath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Bed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Bowl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Dor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Freedg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Laminate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Paint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Varnish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/VashingMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hw/OOP/hypermarcet/goods/Washbasin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lab.epam.exceptions/target/" />
     <ignored path="$PROJECT_DIR$/lab_game/target/" />
     <ignored path="$PROJECT_DIR$/hm.OOP/target/" />
+    <ignored path="$PROJECT_DIR$/lab_hm_Logger/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,62 +25,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Board.java">
+        <entry file="file://$PROJECT_DIR$/lab_hm_Logger/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#1677#1678#0" expanded="true" />
-                <element signature="e#1723#1724#0" expanded="true" />
-                <element signature="e#1779#1780#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="850">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j2.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logFile.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="51">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Service/RulesService.java">
+        <entry file="file://$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="85">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Service/VisualService.java">
+        <entry file="file://$PROJECT_DIR$/app.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab_hm_Logger/target/log4j2.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding>
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-              </folding>
+              <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Play.java">
+        <entry file="file://$PROJECT_DIR$/lab_hm_Logger/src/main/java/MainLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="85">
+              <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Service/MoveService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,21 +117,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/Type.java" />
-        <option value="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/ColorException.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/game/NEW/box/King.java" />
-        <option value="$PROJECT_DIR$/src/main/java/game/NEW/box/Officer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/game/NEW/box/Pawn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/game/NEW/box/Queene.java" />
-        <option value="$PROJECT_DIR$/src/main/java/game/NEW/box/Tour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/game/NEW/Logic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/game/NEW/box/Horse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/game/NEW/box/Figura.java" />
         <option value="$PROJECT_DIR$/src/main/java/game/NEW/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/game/NEW/GameField.java" />
         <option value="$PROJECT_DIR$/lab_game/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/TypeException.java" />
         <option value="$PROJECT_DIR$/hm.OOP/pom.xml" />
         <option value="$PROJECT_DIR$/lab_game/src/main/java/game/NEW/MoveService.java" />
@@ -224,9 +154,28 @@
         <option value="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/second/Exceptions/ColorException.java" />
         <option value="$PROJECT_DIR$/lab.epam.exceptions/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/lab_game/src/main/java/chass/Service/MoveService.java" />
-        <option value="$PROJECT_DIR$/lab_game/src/main/java/chass/Play.java" />
         <option value="$PROJECT_DIR$/lab_game/src/main/java/chass/Service/RulesService.java" />
+        <option value="$PROJECT_DIR$/lab_game/src/main/java/chass/Play.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j.yaml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/src/main/java/MainLogger.java" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/src/main/resources/Log4j.properties" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/src/main/java/logger/Twy.java" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/app.log" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j2.yaml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -251,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -263,25 +211,60 @@
             <path>
               <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_game" type="462c0819:PsiDirectoryNode" />
+              <item name="hm.OOP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_game" type="462c0819:PsiDirectoryNode" />
+              <item name="hm.OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_game" type="462c0819:PsiDirectoryNode" />
+              <item name="hm.OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_game" type="462c0819:PsiDirectoryNode" />
+              <item name="hm.OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="hm.OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hypermarcet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_hm_Logger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_hm_Logger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_hm_Logger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_hm_Logger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -289,26 +272,23 @@
             <path>
               <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_game" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_hm_Logger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chass" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Lab_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_Lab_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_game" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chass" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_hm_Logger" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,12 +296,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\lab_Game\src\main\java" />
-      <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\src\main\resources" />
+      <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\lab_hm_Logger\target" />
+      <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\src" />
+      <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\lab_hm_Logger\src\main\resources" />
       <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP" />
+      <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\lab_hm_Logger" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,20 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Play">
-    <configuration name="GameField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="game.NEW.GameField" />
-      <module name="ta_lab-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chass.Service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GameField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="game.NEW.GameField" />
       <module name="lab_game" />
@@ -363,12 +333,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="game.NEW.Logic" />
-      <module name="ta_lab-Java" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab.epam.exceptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hypermarcet.Main" />
+      <module name="hm.OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chass.Service.*" />
+          <option name="PATTERN" value="hypermarcet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,9 +353,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lab.epam.exceptions" />
+    <configuration name="MainLogger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainLogger" />
+      <module name="lab_hm_Logger" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -411,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainLogger" />
         <item itemvalue="Application.Play" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.VisualService" />
-        <item itemvalue="Application.GameField" />
-        <item itemvalue="Application.Logic" />
       </list>
     </recent_temporary>
   </component>
@@ -445,8 +422,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18456376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,7 +433,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27053824" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.8838527" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36260623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.58498585" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,7 +452,7 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18456376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -483,7 +461,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27053824" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32152975" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36260623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.58498585" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,206 +527,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/departmentofgoods/PaintAndVarnish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/base/Hypermacret.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/base/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/base/Custumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/game/GameField.java" />
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/tic_tac_toe/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/game/MainFrame.java" />
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/tic_tac_toe/Actions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/tic_tac_toe/Rules.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/javafx-src.zip!/com/sun/webkit/graphics/WCImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/tic_tac_toe/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/game/NEW/WhiteFigure.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/game/NEW/BlackFigure.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/game/Run.java" />
-    <entry file="file://$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/box/Coler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/tic_tac_toe/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab.epam.exceptions/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/first/NumberNegativeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab.epam.exceptions/src/main/java/task/first/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/game/ttt.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/game/Main1.java" />
     <entry file="file://$PROJECT_DIR$/lab_Game/c/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab_Game/c/ccv.iml" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab_game/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/chass/Rules.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="5" selection-start-line="40" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/chass/Play.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/chass/Rules.java" />
+    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/chass/Play.java" />
     <entry file="file://$PROJECT_DIR$/hm.OOP/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/NEW/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/NEW/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/chass/Visualization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-902">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/NEW/Position.java" />
+    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/NEW/Place.java" />
+    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/game/chass/Visualization.java" />
     <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/box/Figura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -871,55 +662,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Service/MoveService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Service/VisualService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Play.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="561">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#1677#1678#0" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
-            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Service/RulesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
+        <state relative-caret-position="272">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Service/VisualService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Play.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_game/src/main/java/chass/Service/MoveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/log4j.yaml" />
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j.xml" />
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/target/classes/log4j2.properties" />
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/target/classes/MainLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_lm_Logger/mylogger.log" />
+    <entry file="file://$PROJECT_DIR$/mylogger.txt" />
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/src/main/java/logger/Twy.java" />
+    <entry file="file://$PROJECT_DIR$/mylogger.log" />
+    <entry file="file://$PROJECT_DIR$/application.log" />
+    <entry file="file://$PROJECT_DIR$/logs/app.log" />
+    <entry file="file://$PROJECT_DIR$/src/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all.log" />
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/src/main/java/MainLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logOutput.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="153">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/target/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logGile.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rollingfile.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j2.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hm.OOP/src/main/java/hypermarcet/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

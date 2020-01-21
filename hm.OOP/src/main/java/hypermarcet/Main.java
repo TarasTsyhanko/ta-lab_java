@@ -3,7 +3,6 @@ package hypermarcet;
 
 import hypermarcet.base.Hypermacret;
 import hypermarcet.departmentofgoods.Product;
-import hw.OOP.hypermarcet.goods.*;
 import hypermarcet.goods.*;
 
 import java.util.ArrayList;

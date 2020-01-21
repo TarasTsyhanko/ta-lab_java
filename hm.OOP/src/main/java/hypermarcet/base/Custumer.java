@@ -1,6 +1,5 @@
 package hypermarcet.base;
 
-import hw.OOP.hypermarcet.departmentofgoods.*;
 import hypermarcet.departmentofgoods.*;
 
 import java.util.ArrayList;
