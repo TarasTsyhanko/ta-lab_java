@@ -1,6 +1,0 @@
-[DEBUG] 2020-01-21 22:30:25.579 [main] MainLogger - This Will Be Printed On Debug
-[INFO ] 2020-01-21 22:30:25.584 [main] MainLogger - This Will Be Printed On Info
-[WARN ] 2020-01-21 22:30:25.585 [main] MainLogger - This Will Be Printed On Warn
-[ERROR] 2020-01-21 22:30:25.632 [main] MainLogger - This Will Be Printed On Error
-[FATAL] 2020-01-21 22:30:25.633 [main] MainLogger - This Will Be Printed On Fatal
-[INFO ] 2020-01-21 22:30:25.636 [main] MainLogger - Appending string: Hello, World.

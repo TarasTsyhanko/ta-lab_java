@@ -1,0 +1,63 @@
+Configuration:
+  Appenders:
+    Console:
+      - PatternLayout:
+          pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
+        name: Console
+        target: SYSTEM_OUT
+      - PatternLayout:
+          pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
+        name: Console2
+        target: SYSTEM_OUT
+    File:
+      - PatternLayout:
+          pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
+        name: File
+        fileName: lab_hm_Logger\\logs\\logFile.log
+        append: true
+      - PatternLayout:
+          pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
+        name: FileWarn
+        fileName: lab_hm_Logger\\logs\\logFileWarn.log
+        append: true
+    RollingFile:
+      - name: RollingFile
+        fileName: lab_hm_Logger\\logs\\rollingSize.log
+        filePattern: "logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz"
+        PatternLayout:
+          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+        Policies:
+          SizeBasedTriggeringPolicy:
+            size: 1 MB
+      - name: EveryDayFile
+        fileName: lab_hm_Logger\\logs\\rollingDayNew.log
+        filePattern: ${archive/rolFile3-%d{yy-MM-dd}.log
+        PatternLayout:
+          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+        Policies:
+          TimeBasedTriggeringPolicy:
+            interval: 1
+            modulate: true
+      - name: EveryDayFileOverwriten
+        fileName: lab_hm_Logger\\logs\\overwrittenDay.log
+        filePattern: ${archive/rolFile3-%d{yy-MM-dd}.log
+        PatternLayout:
+          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+        CronTriggeringPolicy:
+          schedule: "0 01 00 ? * *"
+          evaluateOnStartup: true
+        DefaultRolloverStrategy:
+          max: 1
+  Loggers:
+    Root:
+      level: trace
+      AppenderRef:
+        - ref: Console
+          level: info
+        - ref: Console2
+        - ref: File
+        - ref: FileWarn
+          level: warn
+        - ref: RollingFile
+        - ref: EveryDayFile
+        - ref: EveryDayFileOverwriten

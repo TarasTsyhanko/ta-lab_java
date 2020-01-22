@@ -3,14 +3,14 @@ package chass;
 import chass.box.*;
 
 public class Board {
-    private Figura[][] figurs = {{new Tour("♖"),new Horse("♘"),new Officer("♗"),new King("♔"),new Queene("♕"),new Officer("♗"),new Horse("♘"),new Tour("♖")},
-            {new Pawn("♙"),new Pawn("♙"),new Pawn("♙"),new Pawn("♙"),new Pawn("♙"),new Pawn("♙"),new Pawn("♙"),new Pawn("♙")},
-            {null,null,null,null,null,null,null,null},
-            {null,null,null,null,null,null,null,null},
-            {null,null,null,null,null,null,null,null},
-            {null,null,null,null,null,null,null,null},
-            {new Pawn("♟"),new Pawn("♟"),new Pawn("♟"),new Pawn("♟"),new Pawn("♟"),new Pawn("♟"),new Pawn("♟"),new Pawn("♟")},
-            {new Tour("♜"),new Horse("♞"),new Officer("♝"),new Queene("♛"),new King("♚"),new Officer("♝"),new Horse("♞"),new Tour("♜")}};
+    private Figura[][] figurs = {{new Tour("♖"), new Horse("♘"), new Officer("♗"), new King("♔"), new Queene("♕"), new Officer("♗"), new Horse("♘"), new Tour("♖")},
+            {new Pawn("♙"), new Pawn("♙"), new Pawn("♙"), new Pawn("♙"), new Pawn("♙"), new Pawn("♙"), new Pawn("♙"), new Pawn("♙")},
+            {null, null, null, null, null, null, null, null},
+            {null, null, null, null, null, null, null, null},
+            {null, null, null, null, null, null, null, null},
+            {null, null, null, null, null, null, null, null},
+            {new Pawn("♟"), new Pawn("♟"), new Pawn("♟"), new Pawn("♟"), new Pawn("♟"), new Pawn("♟"), new Pawn("♟"), new Pawn("♟")},
+            {new Tour("♜"), new Horse("♞"), new Officer("♝"), new Queene("♛"), new King("♚"), new Officer("♝"), new Horse("♞"), new Tour("♜")}};
 
     public static String[][] position = {{"1A", "1B", "1C", "1D", "1E", "1F", "1G", "1H"},
             {"2A", "2B", "2C", "2D", "2E", "2F", "2G", "2H"},
@@ -22,35 +22,37 @@ public class Board {
             {"8A", "8B", "8C", "8D", "8E", "8F", "8G", "8H"}};
 
     public Board() {
-        for (int i = 0; i < 2 ; i++) {
+        for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 8; j++) {
-                figurs[i][j].coler=Coler.BLACK;
-                figurs[i+6][j].coler = Coler.WHITE;
+                figurs[i][j].setColer(Coler.BLACK);
+                figurs[i + 6][j].setColer(Coler.WHITE);
             }
         }
     }
 
-    public Figura getFigura(int hor,int vert) {
+    public Figura getFigura(int hor, int vert) {
         return figurs[hor][vert];
     }
 
-    public void setField(int hor,int vert,Figura figura) {
+    public void setField(int hor, int vert, Figura figura) {
         this.figurs[hor][vert] = figura;
     }
-    public int getHoryxontal(String str){
+
+    public int getHoryxontal(String str) {
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
-                if (Board.position[i][j].equals(str) ){
+                if (Board.position[i][j].equals(str)) {
                     return i;
                 }
             }
         }
         return -1;
     }
-    public int getVertycal(String str){
+
+    public int getVertycal(String str) {
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
-                if (Board.position[i][j].equals(str) ){
+                if (Board.position[i][j].equals(str)) {
                     return j;
                 }
             }

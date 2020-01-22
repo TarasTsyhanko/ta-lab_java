@@ -2,7 +2,7 @@ package chass.box;
 
 public abstract class Figura {
     protected String image;
-    public Coler coler ;
+    protected Coler coler;
 
     public String getImage() {
         return image;
@@ -15,5 +15,9 @@ public abstract class Figura {
 
     public Coler getColer() {
         return coler;
+    }
+
+    public void setColer(Coler coler) {
+        this.coler = coler;
     }
 }

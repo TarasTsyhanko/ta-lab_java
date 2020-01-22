@@ -1,4 +1,4 @@
 idea/
 target/
-.iml
-lab_hm_Logger/
+.iml*
+.xml*

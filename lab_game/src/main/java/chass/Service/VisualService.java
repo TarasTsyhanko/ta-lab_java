@@ -19,27 +19,29 @@ public class VisualService {
         }
         boardLine();
     }
+
     private void createWhire(int i) {
         createWhiteBlackLine();
         System.out.print("□|");
         for (int k = 0; k < 8; k++) {
-            whiteField(i,k);
+            whiteField(i, k);
             k++;
-            blackField(i,k);
+            blackField(i, k);
         }
-        System.out.println("❑ " + (i+1));
+        System.out.println("❑ " + (i + 1));
         createWhiteBlackLine();
     }
-     private void  createBlack(int i){
-         createBlackeWhiteLine();
-         System.out.print("□|");
-         for (int k = 0; k < 8; k++) {
-             blackField(i,k);
-             k++;
-             whiteField(i,k);
-         }
-         System.out.println("❑ " + (i+1));
-         createBlackeWhiteLine();
+
+    private void createBlack(int i) {
+        createBlackeWhiteLine();
+        System.out.print("□|");
+        for (int k = 0; k < 8; k++) {
+            blackField(i, k);
+            k++;
+            whiteField(i, k);
+        }
+        System.out.println("❑ " + (i + 1));
+        createBlackeWhiteLine();
     }
 
     private void boardLine() {

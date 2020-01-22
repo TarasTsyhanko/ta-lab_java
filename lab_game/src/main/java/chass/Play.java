@@ -7,7 +7,6 @@ public class Play {
     public static void main(String[] args) {
         RulesService rule = new RulesService();
         VisualService visualService = new VisualService();
-
         visualService.createGameField();
         while (true){
             visualService.move.chooseFigure();
