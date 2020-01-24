@@ -17,7 +17,6 @@ public class RulesService {
                         v = j;
                     }
                 } catch (NullPointerException e) {
-
                 }
             }
         }

@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lab_hm_Logger" />
         <module name="hm.OOP" />
         <module name="lab_game" />
         <module name="lab.epam.exceptions" />
-        <module name="lab_hm_Logger" />
+        <module name="epam (1)" />
+        <module name="epam (2)" />
       </profile>
       <profile name="Annotation profile for lab." enabled="true">
         <sourceOutputDir name="../lab.epam.exceptions/target/generated-sources/annotations" />

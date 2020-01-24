@@ -1,0 +1,9 @@
+[WARN ] 2020-01-23 20:36:53.226 logger.MainLogger:14 - This Will Be Printed On Warn
+[WARN ] 2020-01-23 20:42:26.734 logger.MainLogger:14 - This Will Be Printed On Warn
+[WARN ] 2020-01-23 20:44:48.569 logger.MainLogger:14 - This Will Be Printed On Warn
+[WARN ] 2020-01-23 20:45:14.225 logger.MainLogger:14 - This Will Be Printed On Warn
+[WARN ] 2020-01-23 20:51:22.241 logger.MainLogger:14 - This Will Be Printed On Warn
+[WARN ] 2020-01-23 20:55:55.999 logger.MainLogger:14 - This Will Be Printed On Warn
+[WARN ] 2020-01-23 20:57:58.364 logger.MainLogger:14 - This Will Be Printed On Warn
+[WARN ] 2020-01-23 20:58:55.325 logger.MainLogger:14 - This Will Be Printed On Warn
+[WARN ] 2020-01-24 12:47:25.838 MainLogger:16 - This Will Be Printed On Warn 

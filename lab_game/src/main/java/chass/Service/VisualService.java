@@ -49,11 +49,11 @@ public class VisualService {
     }
 
     private void createWhiteBlackLine() {
-        System.out.println("□|███|░░░|███|░░░|███|░░░|███|░░░|❑ ");
+        System.out.println("□|██████|░░░░░░|██████|░░░░░░|██████|░░░░░░|██████|░░░░░░|❑ ");
     }
 
     private void createBlackeWhiteLine() {
-        System.out.println("□|░░░|███|░░░|███|░░░|███|░░░|███|❑ ");
+        System.out.println("□|░░░░░░|██████|░░░░░░|██████|░░░░░░|██████|░░░░░░|██████|❑ ");
     }
 
     private void whiteField(int i, int k) {
@@ -61,9 +61,9 @@ public class VisualService {
         try {
             s = move.board.getFigura(i, k).getImage();
         } catch (NullPointerException e) {
-            s = "█";
+            s = "██";
         }
-        System.out.print("█" + s + "█|");
+        System.out.print("██" + s + "██|");
     }
 
     private void blackField(int i, int k) {
@@ -71,8 +71,8 @@ public class VisualService {
         try {
             s = move.board.getFigura(i, k).getImage();
         } catch (NullPointerException e) {
-            s = "░";
+            s = "░░";
         }
-        System.out.print("░" + s + "░|");
+        System.out.print("░░" + s + "░░|");
     }
 }

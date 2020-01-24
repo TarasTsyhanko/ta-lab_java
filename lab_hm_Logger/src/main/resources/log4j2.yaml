@@ -1,63 +1,129 @@
+
 Configuration:
+  packeges: "logger"
+  name: log4l2
+  properties:
+    property:
+      name: log-path
+      value: lab_hm_Logger\\logs
   Appenders:
-    Console:
-      - PatternLayout:
-          pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
-        name: Console
-        target: SYSTEM_OUT
-      - PatternLayout:
-          pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
-        name: Console2
-        target: SYSTEM_OUT
-    File:
-      - PatternLayout:
-          pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
-        name: File
-        fileName: lab_hm_Logger\\logs\\logFile.log
-        append: true
-      - PatternLayout:
-          pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
-        name: FileWarn
-        fileName: lab_hm_Logger\\logs\\logFileWarn.log
-        append: true
-    RollingFile:
-      - name: RollingFile
-        fileName: lab_hm_Logger\\logs\\rollingSize.log
-        filePattern: "logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz"
-        PatternLayout:
-          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
-        Policies:
-          SizeBasedTriggeringPolicy:
-            size: 1 MB
-      - name: EveryDayFile
-        fileName: lab_hm_Logger\\logs\\rollingDayNew.log
-        filePattern: ${archive/rolFile3-%d{yy-MM-dd}.log
-        PatternLayout:
-          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
-        Policies:
-          TimeBasedTriggeringPolicy:
-            interval: 1
-            modulate: true
-      - name: EveryDayFileOverwriten
-        fileName: lab_hm_Logger\\logs\\overwrittenDay.log
-        filePattern: ${archive/rolFile3-%d{yy-MM-dd}.log
-        PatternLayout:
-          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
-        CronTriggeringPolicy:
-          schedule: "0 01 00 ? * *"
-          evaluateOnStartup: true
-        DefaultRolloverStrategy:
-          max: 1
+     Console:
+
+#in the console will be printed only “INFO”.
+       - PatternLayout:
+           pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+         name: Console
+         target: SYSTEM_OUT
+         Filters:
+           ThresholdFilter:
+             level: warn
+             onMatch: DENY
+             onMismatch: NEUTRAL
+
+#in the console will be printed all levels.
+       - PatternLayout:
+           pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+         name: Console2
+         target: SYSTEM_OUT
+
+#file will not be overwritten
+     File:
+       - PatternLayout:
+           pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+         name: File
+         fileName: ${log-path}\\logFile.txt
+         append: true
+
+#all levels higher than “WARN” will be saved in the file.
+       - PatternLayout:
+           pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+         name: FileWarn
+         fileName: ${log-path}\\logFileWarn.txt
+         append: true
+         Filters:
+          ThresholdFilter:
+           level: warn
+           onMatch: DENY
+           onMismatch: NEUTRAL
+
+#in the file will be recorded only “WARN”,
+       - PatternLayout:
+           pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+         name: FileWarnOnly
+         fileName: ${log-path}\\logFileWarnOnly.txt
+         append: true
+         Filters:
+          ThresholdFilter:
+            level: error
+            onMatch: DENY
+            onMismatch: NEUTRAL
+     RollingFile:
+
+#file will be overwritten after reaching the size of 1 MB;
+       - name: RollingFile
+         fileName: ${log-path}\\rollingSize.txt
+         filePattern: ${log-path}archiveSize//rollingSize-%d{yy-MM-dd}.txt
+         PatternLayout:
+           pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg%xEx{short}%n"
+         Policies:
+           SizeBasedTriggeringPolicy:
+             size: 1 MB
+
+#file will be overwritten every day;
+       - name: EveryDayFile
+         fileName: ${log-path}\\rollingFileDay.txt
+         filePattern: ${log-path}archiveEveryDay//rollingFileDay-%d{yy-MM-dd}.txt
+         PatternLayout:
+           pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+         Policies:
+           TimeBasedTriggeringPolicy:
+             interval: 1
+             modulate: true
+
+  #every day log will be written to a new file.
+       - name: EveryDayFileOverwriten
+         fileName: ${log-path}\\overwrittenDay.txt
+         filePattern: ${log-path}archiveNewDay//overwrittenDay-%d{yy-MM-dd}.txt
+         PatternLayout:
+           pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+         CronTriggeringPolicy:
+           schedule: "0 01 00 ? * *"
+           evaluateOnStartup: true
+         DefaultRolloverStrategy:
+           max: 1
+  #will be sent on e-mail
+     SMTP:
+       name: MailAppender
+       subject: "Error Log"
+       to: "tarastsyhanko@gmail.com"
+       from: "tarastsyhanko@gmail.com"
+       smtpHost: "smtp.gmail.com"
+       smtpPort: 465
+       smtpProtocol: smtps
+       smtpUsername: "tarastsyhanko@gmail.com"
+       smtpPassword: "*****************"
+       bufferSize: 512
+       HTMLLayout:
+        charset: "UTF-8"
+        title: "Logs from Tsyhanko project lab_epam_Logger"
+       Filters:
+         ThresholdFilter:
+           level: fatal
+           onMatch: DENY
+           onMismatch: NEUTRAL
   Loggers:
-    Root:
-      level: trace
-      AppenderRef:
-        - ref: Console
-          level: info
-        - ref: Console2
-        - ref: File
-        - ref: FileWarn
-          level: warn
-        - ref: RollingFile
-        - ref: EveryDayFile
-        - ref: EveryDayFileOverwriten
+     Root:
+       level: trace
+       AppenderRef:
+         - ref: Console
+           level: info
+         - ref: Console2
+         - ref: File
+         - ref: FileWarn
+         - ref: FileWarnOnly
+           level: warn
+         - ref: RollingFile
+         - ref: EveryDayFile
+         - ref: EveryDayFileOverwriten
+         - ref: MailAppender
+           level: error
