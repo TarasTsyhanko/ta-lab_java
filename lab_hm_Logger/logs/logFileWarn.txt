@@ -25,3 +25,12 @@
 [TRACE] 2020-01-24 12:47:25.823 MainLogger:13 -  This will be printed on TRACE 
 [DEBUG] 2020-01-24 12:47:25.838 MainLogger:14 - This Will Be Printed On Debug 
 [INFO ] 2020-01-24 12:47:25.838 MainLogger:15 - This Will Be Printed On Info 
+[TRACE] 2020-01-24 14:39:06.808 MainLogger:13 -  This will be printed on TRACE 
+[DEBUG] 2020-01-24 14:39:06.902 MainLogger:14 - This Will Be Printed On Debug 
+[INFO ] 2020-01-24 14:39:06.902 MainLogger:15 - This Will Be Printed On Info 
+[TRACE] 2020-01-26 17:03:55.262 MainLogger:13 -  This will be printed on TRACE 
+[DEBUG] 2020-01-26 17:03:55.277 MainLogger:14 - This Will Be Printed On Debug 
+[INFO ] 2020-01-26 17:03:55.277 MainLogger:15 - This Will Be Printed On Info 
+[TRACE] 2020-01-27 18:16:03.029 MainLogger:13 -  This will be printed on TRACE 
+[DEBUG] 2020-01-27 18:16:03.045 MainLogger:14 - This Will Be Printed On Debug 
+[INFO ] 2020-01-27 18:16:03.045 MainLogger:15 - This Will Be Printed On Info 

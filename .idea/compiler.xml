@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lab_Arrays" />
         <module name="lab_hm_Logger" />
         <module name="hm.OOP" />
         <module name="lab_game" />

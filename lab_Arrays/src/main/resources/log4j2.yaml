@@ -1,0 +1,16 @@
+#Configuration:
+  #packeges: "arraystasks"
+  # name: Main
+  Appenders:
+    Console:
+
+      #in the console will be printed only “INFO”.
+      PatternLayout:
+        pattern: "[%-5level]  %class{1}:%L - %msg %xEx{short}%n"
+      name: Console
+      target: SYSTEM_OUT
+  Loggers:
+    Root:
+      level: trace
+      AppenderRef:
+        - ref: Console

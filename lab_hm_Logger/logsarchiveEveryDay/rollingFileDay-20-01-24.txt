@@ -46,27 +46,15 @@
 [WARN ] 2020-01-23 20:58:55.325 logger.MainLogger:14 - This Will Be Printed On Warn
 [ERROR] 2020-01-23 20:58:55.340 logger.MainLogger:15 - This Will Be Printed On Error
 [FATAL] 2020-01-23 20:58:58.881 logger.MainLogger:16 - This Will Be Printed On Fatal
-[TRACE] 2020-01-24 12:47:25.823 MainLogger:13 -  This will be printed on TRACE
-[DEBUG] 2020-01-24 12:47:25.838 MainLogger:14 - This Will Be Printed On Debug
-[INFO ] 2020-01-24 12:47:25.838 MainLogger:15 - This Will Be Printed On Info
-[WARN ] 2020-01-24 12:47:25.838 MainLogger:16 - This Will Be Printed On Warn
-[ERROR] 2020-01-24 12:47:25.838 MainLogger:17 - This Will Be Printed On Error
-[FATAL] 2020-01-24 12:47:29.212 MainLogger:18 - This Will Be Printed On Fatal
-[TRACE] 2020-01-24 14:39:06.808 MainLogger:13 -  This will be printed on TRACE
-[DEBUG] 2020-01-24 14:39:06.902 MainLogger:14 - This Will Be Printed On Debug
-[INFO ] 2020-01-24 14:39:06.902 MainLogger:15 - This Will Be Printed On Info
-[WARN ] 2020-01-24 14:39:06.902 MainLogger:16 - This Will Be Printed On Warn
-[ERROR] 2020-01-24 14:39:06.918 MainLogger:17 - This Will Be Printed On Error
-[FATAL] 2020-01-24 14:39:10.529 MainLogger:18 - This Will Be Printed On Fatal
-[TRACE] 2020-01-26 17:03:55.262 MainLogger:13 -  This will be printed on TRACE
-[DEBUG] 2020-01-26 17:03:55.277 MainLogger:14 - This Will Be Printed On Debug
-[INFO ] 2020-01-26 17:03:55.277 MainLogger:15 - This Will Be Printed On Info
-[WARN ] 2020-01-26 17:03:55.277 MainLogger:16 - This Will Be Printed On Warn
-[ERROR] 2020-01-26 17:03:55.277 MainLogger:17 - This Will Be Printed On Error
-[FATAL] 2020-01-26 17:03:59.383 MainLogger:18 - This Will Be Printed On Fatal
-[TRACE] 2020-01-27 18:16:03.029 MainLogger:13 -  This will be printed on TRACE
-[DEBUG] 2020-01-27 18:16:03.045 MainLogger:14 - This Will Be Printed On Debug
-[INFO ] 2020-01-27 18:16:03.045 MainLogger:15 - This Will Be Printed On Info
-[WARN ] 2020-01-27 18:16:03.045 MainLogger:16 - This Will Be Printed On Warn
-[ERROR] 2020-01-27 18:16:03.045 MainLogger:17 - This Will Be Printed On Error
-[FATAL] 2020-01-27 18:16:03.310 MainLogger:18 - This Will Be Printed On Fatal
+[TRACE] 2020-01-24 12:47:25.823 MainLogger:13 -  This will be printed on TRACE 
+[DEBUG] 2020-01-24 12:47:25.838 MainLogger:14 - This Will Be Printed On Debug 
+[INFO ] 2020-01-24 12:47:25.838 MainLogger:15 - This Will Be Printed On Info 
+[WARN ] 2020-01-24 12:47:25.838 MainLogger:16 - This Will Be Printed On Warn 
+[ERROR] 2020-01-24 12:47:25.838 MainLogger:17 - This Will Be Printed On Error 
+[FATAL] 2020-01-24 12:47:29.212 MainLogger:18 - This Will Be Printed On Fatal 
+[TRACE] 2020-01-24 14:39:06.808 MainLogger:13 -  This will be printed on TRACE 
+[DEBUG] 2020-01-24 14:39:06.902 MainLogger:14 - This Will Be Printed On Debug 
+[INFO ] 2020-01-24 14:39:06.902 MainLogger:15 - This Will Be Printed On Info 
+[WARN ] 2020-01-24 14:39:06.902 MainLogger:16 - This Will Be Printed On Warn 
+[ERROR] 2020-01-24 14:39:06.918 MainLogger:17 - This Will Be Printed On Error 
+[FATAL] 2020-01-24 14:39:10.529 MainLogger:18 - This Will Be Printed On Fatal 

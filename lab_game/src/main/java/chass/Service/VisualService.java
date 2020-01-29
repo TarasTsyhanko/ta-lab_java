@@ -8,7 +8,7 @@ public class VisualService {
     }
 
     public void createGameField() {
-        System.out.println("    A     B     C     D     E     F    G     H");
+        System.out.println("      A        B        C        D        E        F        G         H");
         boardLine();
         for (int i = 0; i < 8; i++) {
             if (i % 2 == 0) {
@@ -45,25 +45,27 @@ public class VisualService {
     }
 
     private void boardLine() {
-        System.out.println("❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑");
+        System.out.println("❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑❑");
     }
 
     private void createWhiteBlackLine() {
-        System.out.println("□|██████|░░░░░░|██████|░░░░░░|██████|░░░░░░|██████|░░░░░░|❑ ");
+        System.out.println("□|▇▇▇▇▇▇▇|░░░░░░░░|▇▇▇▇▇▇▇|░░░░░░░░|▇▇▇▇▇▇▇|░░░░░░░░|▇▇▇▇▇▇▇|░░░░░░░░|❑ ");
+
     }
 
     private void createBlackeWhiteLine() {
-        System.out.println("□|░░░░░░|██████|░░░░░░|██████|░░░░░░|██████|░░░░░░|██████|❑ ");
-    }
+        System.out.println("□|░░░░░░░░|▇▇▇▇▇▇▇|░░░░░░░░|▇▇▇▇▇▇▇|░░░░░░░░|▇▇▇▇▇▇▇|░░░░░░░░|▇▇▇▇▇▇▇|❑ ");
+
+    }///▇ ▉
 
     private void whiteField(int i, int k) {
         String s;
         try {
             s = move.board.getFigura(i, k).getImage();
         } catch (NullPointerException e) {
-            s = "██";
+            s = "▇";
         }
-        System.out.print("██" + s + "██|");
+        System.out.print("▇▇▇" + s + "▇▇▇|");
     }
 
     private void blackField(int i, int k) {
@@ -73,6 +75,6 @@ public class VisualService {
         } catch (NullPointerException e) {
             s = "░░";
         }
-        System.out.print("░░" + s + "░░|");
+        System.out.print("░░░" + s + "░░░|");
     }
 }
