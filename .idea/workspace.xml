@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f8a68e-216c-49ce-8ea5-8e4d5f350fce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_game/src/main/java/chass/Service/VisualService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_game/src/main/java/chass/Service/VisualService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_Logger/logs/logFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_Logger/logs/logFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_Logger/logs/logFileWarn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_Logger/logs/logFileWarn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_Logger/logs/logFileWarnOnly.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_Logger/logs/logFileWarnOnly.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_Logger/logs/overwrittenDay.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_Logger/logs/overwrittenDay.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_Logger/logs/rollingFileDay.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_Logger/logs/rollingFileDay.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_Logger/logs/rollingSize.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_Logger/logs/rollingSize.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_Logger/src/main/resources/log4j2.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_Arrays/src/main/resources/log4j2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_Arrays/src/main/resources/log4j2.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -91,7 +83,7 @@
       <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\lab.epam.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainAr">
+  <component name="RunManager" selected="Application.MyMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arraystasks.Main" />
       <module name="lab_Arrays" />
@@ -131,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comper.MainString" />
-      <module name="lab_Arrays" />
+    <configuration name="MainShipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shipwhithdroids.MainShipe" />
+      <module name="lab_hm_Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comper.*" />
+          <option name="PATTERN" value="shipwhithdroids.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Play" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chass.Play" />
-      <module name="epam (2)" />
+    <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypriorityqueue.MyMain" />
+      <module name="lab_hm_Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chass.*" />
+          <option name="PATTERN" value="mypriorityqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyMain" />
+        <item itemvalue="Application.MainShipe" />
         <item itemvalue="Application.MainAr" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainGame" />
-        <item itemvalue="Application.Play" />
-        <item itemvalue="Application.MainString" />
       </list>
     </recent_temporary>
   </component>
@@ -205,10 +197,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580049087034" />
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1580308459432">
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1580422680329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580308459432" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580422680329" />
     <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579794732512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -221,42 +213,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580127526866" />
+    <state x="524" y="121" key="#xdebugger.evaluate" timestamp="1580403230259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="121" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1580403230259" />
     <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1579795527185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579795527185" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1580337818556">
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1580425546136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580337818556" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1580337818556">
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580425546136" />
+    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1580425546136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580337818556" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1580337818556">
+    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580425546136" />
+    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1580425546136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580337818556" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1580337818556">
+    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580425546136" />
+    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1580425546136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580337818556" />
-    <state width="1493" height="303" key="GridCell.Tab.1.bottom" timestamp="1580137418235">
+    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580425546136" />
+    <state width="1493" height="303" key="GridCell.Tab.1.bottom" timestamp="1580403462831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580137418235" />
-    <state width="1493" height="303" key="GridCell.Tab.1.center" timestamp="1580137418235">
+    <state width="1493" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580403462831" />
+    <state width="1493" height="303" key="GridCell.Tab.1.center" timestamp="1580403462831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580137418235" />
-    <state width="1493" height="303" key="GridCell.Tab.1.left" timestamp="1580137418235">
+    <state width="1493" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580403462831" />
+    <state width="1493" height="303" key="GridCell.Tab.1.left" timestamp="1580403462831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580137418235" />
-    <state width="1493" height="303" key="GridCell.Tab.1.right" timestamp="1580137418235">
+    <state width="1493" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580403462831" />
+    <state width="1493" height="303" key="GridCell.Tab.1.right" timestamp="1580403462831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580137418235" />
+    <state width="1493" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580403462831" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1580299679305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -269,10 +265,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1580052436334" />
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1580334764455">
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1580414028260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580334764455" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580414028260" />
     <state x="407" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580297662760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -281,10 +277,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1580298272799" />
-    <state x="209" y="34" key="new project wizard" timestamp="1580048921212">
+    <state x="209" y="34" key="new project wizard" timestamp="1580381567481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1580048921212" />
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1580381567481" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1580143057106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
