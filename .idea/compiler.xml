@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lab_Arrays" />
         <module name="lab_hm_Logger" />
+        <module name="lab_hm_generic+collection" />
         <module name="hm.OOP" />
         <module name="lab_hm_Generic" />
         <module name="lab_game" />
