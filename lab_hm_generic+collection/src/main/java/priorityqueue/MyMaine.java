@@ -19,16 +19,16 @@ public class MyMaine {
         queue.add(new Droid("A", "v"));
         queue.add(new Droid("H", "k"));
         queue.add(new Droid("U", "t"));
+
         log.info(queue.isEmpty());
         log.info(queue.size());
         log.info(queue.peek());
         log.info(queue.poll());
         log.info(queue.poll());
-        System.out.println();
-        Iterator<Droid> iter = queue.iterator();
+        Iterator<Droid> iterator = queue.iterator();
 
-        while(iter.hasNext()) {
-            log.info(iter.next());
+        while (iterator.hasNext()) {
+            log.info(iterator.next());
         }
         log.info(queue.size());
         log.info(queue.isEmpty());

@@ -1,9 +1,14 @@
 package mytreemap;
 
+import consolemenu.Menu;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Iterator;
 import java.util.TreeMap;
 
 public class Main {
+    private static final Logger log = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
         MyTreeMap<Integer, String> treeMap = new MyTreeMap<Integer, String>();
         treeMap.put(2,"Tuesday");
@@ -12,13 +17,12 @@ public class Main {
         treeMap.put(7,"Sunday");
         treeMap.put(3,"Wednesday");
         treeMap.put(1,"Wednesday");
-        System.out.println(treeMap.get(1));
-        System.out.println(treeMap.get(2));
-        System.out.println(treeMap.get(3));
-        System.out.println(treeMap.get(6));
-        System.out.println(treeMap.get(7));
-        System.out.println(treeMap.size());
-        TreeMap<Integer,String> map =new TreeMap<Integer, String>();
-        Iterator<Integer> t = t.hasNext();
+        log.info(treeMap.get(1));
+        log.info(treeMap.get(2));
+        log.info(treeMap.get(3));
+        log.info(treeMap.get(6));
+        log.info(treeMap.get(7));
+        log.info(treeMap.size());
+
     }
 }

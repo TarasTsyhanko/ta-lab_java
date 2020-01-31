@@ -5,6 +5,7 @@ import shipwithdroid.Droid;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Iterator;
+import java.util.function.Consumer;
 
 public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQueue<T> {
     private Object[] queue;
@@ -158,18 +159,5 @@ public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQ
             return (T) queue[currentIndex++];
         }
 
-        public void remove() {
-            if (size == 0) {
-                throw new IndexOutOfBoundsException();
-            } else {
-                if (size == 1) {
-                    queue[0] = null;
-                } else {
-                    copyDeleteArray(currentIndex);
-                    queue[size - 1] = null;
-                }
-                size--;
-            }
-        }
     }
 }
