@@ -15,10 +15,10 @@ public class MyMaine {
         MyPriorityQueue<Droid> queue = new MyPriorityQueue(comparator);
         queue.add(new Droid("C", "a"));
         queue.add(new Droid("B", "b"));
-        queue.add(new Droid("A", "k"));
+        queue.add(new Droid("Y", "k"));
         queue.add(new Droid("A", "v"));
         queue.add(new Droid("H", "k"));
-        queue.add(new Droid("F", "t"));
+        queue.add(new Droid("U", "t"));
         log.info(queue.isEmpty());
         log.info(queue.size());
         log.info(queue.peek());
@@ -28,9 +28,8 @@ public class MyMaine {
         Iterator<Droid> iter = queue.iterator();
 
         while(iter.hasNext()) {
-            iter.remove();
+            log.info(iter.next());
         }
-
         log.info(queue.size());
         log.info(queue.isEmpty());
     }

@@ -28,7 +28,7 @@ public class Droid implements Comparable<Droid> {
     }
 
     public String toString() {
-        return "Droid{name='" + this.name + '\'' + ", type='" + this.type + '\'' + '}';
+        return "Droid{name='" + name + '\'' + ", type='" +type + '\'' + '}';
     }
 
     public boolean equals(Object o) {
@@ -36,17 +36,17 @@ public class Droid implements Comparable<Droid> {
             return true;
         } else if (o != null && this.getClass() == o.getClass()) {
             Droid droid = (Droid)o;
-            return this.name.equals(droid.name) && this.type.equals(droid.type);
+            return name.equals(droid.name) && type.equals(droid.type);
         } else {
             return false;
         }
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.name, this.type});
+        return Objects.hash(name,type);
     }
 
     public int compareTo(Droid o) {
-        return this.name.compareTo(o.name);
+        return name.compareTo(o.name);
     }
 }

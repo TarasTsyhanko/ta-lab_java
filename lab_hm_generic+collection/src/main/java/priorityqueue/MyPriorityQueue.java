@@ -13,7 +13,7 @@ public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQ
     private Comparator<? super T> comparator;
 
     public MyPriorityQueue() {
-        this.queue = new Object[11];
+        queue = new Object[CAPACITY];
     }
 
     public MyPriorityQueue(int initCapacity, Comparator<? super T> comparator) {
@@ -22,144 +22,123 @@ public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQ
     }
 
     public MyPriorityQueue(Comparator<? super T> comparator) {
-        this.queue = new Object[11];
+        this.queue = new Object[CAPACITY];
         this.comparator = comparator;
     }
 
     public T peek() {
-        return this.size == 0 ? null : (T)this.queue[0];
+        return size == 0 ? null : (T) queue[0];
     }
 
     public boolean add(T e) {
-        return this.offer(e);
+        return offer(e);
     }
 
     public boolean offer(T e) {
         if (e == null) {
             throw new NullPointerException();
-        } else {
-            if (this.queue.length <= this.size) {
-                this.growArray();
-            }
-
-            if (this.size == 0) {
-                this.queue[this.size] = e;
-                ++this.size;
-                return true;
-            } else {
-                this.sort(e);
-                ++this.size;
-                return true;
-            }
         }
+        if (queue.length <= size) {
+            growArray();
+        }
+        if (size == 0) {
+            queue[size] = e;
+            ++size;
+            return true;
+        }
+        sort(e);
+        ++size;
+        return true;
     }
 
     public T poll() {
-        if (this.size == 0) {
+        if (size == 0) {
             return null;
-        } else {
-            T res = (T)this.queue[0];
-            if (this.size == 1) {
-                this.queue[0] = null;
-            } else {
-                this.copyDeleteArray(0);
-                this.queue[this.size - 1] = null;
-            }
-
-            --this.size;
-            return res;
         }
+        T res = (T) queue[0];
+        if (size == 1) {
+            queue[0] = null;
+        } else {
+            copyDeleteArray(0);
+            queue[size - 1] = null;
+        }
+        --size;
+        return res;
     }
 
     public void remove() {
-        if (this.size == 0) {
+        if (size == 0) {
             throw new IndexOutOfBoundsException();
-        } else {
-            if (this.size == 1) {
-                this.queue[0] = null;
-            } else {
-                this.copyDeleteArray(0);
-                this.queue[this.size - 1] = null;
-            }
-
-            --this.size;
         }
+        if (this.size == 1) {
+            this.queue[0] = null;
+        } else {
+            copyDeleteArray(0);
+            queue[size - 1] = null;
+        }
+        --size;
     }
 
     public boolean isEmpty() {
-        return this.size == 0;
+        return size == 0;
     }
 
     private void growArray() {
-        int oldCapacity = this.queue.length;
+        int oldCapacity = queue.length;
         int newCapacity = oldCapacity << 2;
-        this.queue = Arrays.copyOf(this.queue, newCapacity);
+        queue = Arrays.copyOf(queue, newCapacity);
     }
 
     private void copyAddArray(int index) {
-        System.arraycopy(this.queue, index, this.queue, index + 1, this.size - index);
+        System.arraycopy(queue, index, queue, index + 1, size - index);
     }
 
     private void sort(T e) {
-        if (this.comparator == null) {
-            this.sortWithComparable(e);
+        if (comparator == null) {
+            sortWithComparable(e);
         } else {
-            this.sortWithComparator(e);
+            sortWithComparator(e);
         }
 
     }
 
     private void copyDeleteArray(int index) {
-        System.arraycopy(this.queue, index + 1, this.queue, index, this.size);
+        System.arraycopy(queue, index + 1, queue, index, size);
     }
 
     private void sortWithComparable(T e) {
         Comparable<? super T> key = e;
         int i = 0;
-
-        while(i < this.size) {
-            if (key.compareTo((T)this.queue[i]) >= 0) {
-                if (this.size - 1 != i) {
-                    ++i;
-                    continue;
-                }
-
+        while (i < size) {
+            if (key.compareTo((T) queue[i]) >= 0) {
                 ++i;
+            } else {
+                break;
             }
-
-            this.copyAddArray(i);
-            this.queue[i] = key;
-            break;
         }
-
+        copyAddArray(i);
+        queue[i] = key;
     }
 
     private void sortWithComparator(T e) {
         int i = 0;
-
-        while(i < this.size) {
-            if (this.comparator.compare(e, (T)this.queue[i]) >= 0) {
-                if (this.size - 1 != i) {
-                    ++i;
-                    continue;
-                }
-
+        while (i < size) {
+            if (comparator.compare(e, (T) queue[i]) >= 0) {
                 ++i;
+            } else {
+                break;
             }
-
-            this.copyAddArray(i);
-            this.queue[i] = e;
-            break;
         }
-
+        copyAddArray(i);
+        queue[i] = e;
     }
 
     public void clear() {
-        for(int i = 0; i < this.size; ++i) {
-            this.queue[i] = null;
+        for (int i = 0; i < size; ++i) {
+            queue[i] = null;
         }
 
-        this.size = 0;
+        size = 0;
     }
 
     public int size() {
@@ -171,32 +150,29 @@ public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQ
     }
 
     private class MyIterator<T> implements Iterator<T> {
-        private int currentIndex;
+        private int currentIndex = 0;
 
-        private MyIterator() {
-            this.currentIndex = 0;
-        }
 
         public boolean hasNext() {
-            return this.currentIndex < MyPriorityQueue.this.size || MyPriorityQueue.this.queue[this.currentIndex] != null;
+            return currentIndex < size || queue[currentIndex] != null;
         }
 
         public T next() {
-            return (T) queue[this.currentIndex++];
+            return (T) queue[currentIndex++];
         }
 
         public void remove() {
-            if (MyPriorityQueue.this.size == 0) {
+            if (size == 0) {
                 throw new IndexOutOfBoundsException();
             } else {
-                if (MyPriorityQueue.this.size == 1) {
-                    MyPriorityQueue.this.queue[0] = null;
+                if (size == 1) {
+                    queue[0] = null;
                 } else {
-                    MyPriorityQueue.this.copyDeleteArray(this.currentIndex);
-                    MyPriorityQueue.this.queue[MyPriorityQueue.this.size - 1] = null;
+                    copyDeleteArray(currentIndex);
+                    queue[size - 1] = null;
                 }
 
-                MyPriorityQueue.this.size--;
+                size--;
             }
         }
     }

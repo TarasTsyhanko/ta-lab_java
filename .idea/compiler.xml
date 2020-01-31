@@ -10,7 +10,6 @@
         <module name="lab_hm_Logger" />
         <module name="lab_hm_generic+collection" />
         <module name="hm.OOP" />
-        <module name="lab_hm_Generic" />
         <module name="lab_game" />
         <module name="lab.epam.exceptions" />
         <module name="epam (1)" />
@@ -26,6 +25,7 @@
     <bytecodeTargetLevel>
       <module name="lab.epam.exceptions" target="7" />
       <module name="lab_Game" target="1.5" />
+      <module name="lab_hm_Generic" target="7" />
       <module name="Lab_hw_Generic1" target="7" />
       <module name="ta_lab-Java" target="1.5" />
     </bytecodeTargetLevel>
