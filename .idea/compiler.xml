@@ -25,6 +25,7 @@
     <bytecodeTargetLevel>
       <module name="lab.epam.exceptions" target="7" />
       <module name="lab_Game" target="1.5" />
+      <module name="Lab_hw_Generic1" target="7" />
       <module name="ta_lab-Java" target="1.5" />
     </bytecodeTargetLevel>
   </component>
