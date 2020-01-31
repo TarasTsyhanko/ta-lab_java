@@ -99,7 +99,6 @@ public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQ
         } else {
             sortWithComparator(e);
         }
-
     }
 
     private void copyDeleteArray(int index) {
@@ -137,7 +136,6 @@ public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQ
         for (int i = 0; i < size; ++i) {
             queue[i] = null;
         }
-
         size = 0;
     }
 
@@ -151,7 +149,6 @@ public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQ
 
     private class MyIterator<T> implements Iterator<T> {
         private int currentIndex = 0;
-
 
         public boolean hasNext() {
             return currentIndex < size || queue[currentIndex] != null;
@@ -171,7 +168,6 @@ public class MyPriorityQueue<T extends Droid & Comparable<Droid>> implements MyQ
                     copyDeleteArray(currentIndex);
                     queue[size - 1] = null;
                 }
-
                 size--;
             }
         }
