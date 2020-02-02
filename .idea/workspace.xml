@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b1f8a68e-216c-49ce-8ea5-8e4d5f350fce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_hm_collection_part_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_collection_part_2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_generic+collection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_generic+collection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyMaine.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyMaine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,20 @@
       <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\lab.epam.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AddString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addstringtointeger.AddString" />
+      <module name="lab_hm_generic+collection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addstringtointeger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="consolemenu.Main" />
       <module name="lab_hm_collection_part_2" />
@@ -125,19 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mypriorityqueue.MyMain" />
-      <module name="lab_hm_Generic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mypriorityqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyMaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="priorityqueue.MyMaine" />
       <module name="lab_hm_generic+collection" />
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MyMaine" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MyMaine" />
+        <item itemvalue="Application.AddString" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MainShip" />
-        <item itemvalue="Application.MyMain" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +177,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Inspections" timestamp="1580651812953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1580651812953" />
     <state x="485" y="72" key="#Main" timestamp="1579796389959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -187,10 +193,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="72" key="#Play/0.0.1536.824@0.0.1536.824" timestamp="1579796557186" />
-    <state x="361" y="72" key="#Project_Structure" timestamp="1579867474696">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1580664081362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579867474695" />
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1580664081362" />
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580301894350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -199,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580049087034" />
-    <state x="945" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1580479806772">
+    <state x="945" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1580661487448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="945" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580479806772" />
+    <state x="945" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580661487448" />
     <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579794732512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -211,6 +217,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="273" width="408" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580309134401" />
+    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580655891803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1580655891803" />
     <state x="499" y="160" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580127526866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -227,38 +237,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579795527185" />
-    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1580481820354">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1580667358510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580481820354" />
-    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1580481820354">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1580667358510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580481820354" />
-    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1580481820354">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1580667358510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580481820354" />
-    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1580481820354">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1580667358510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580481820354" />
-    <state width="1493" height="303" key="GridCell.Tab.1.bottom" timestamp="1580403462831">
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1580667358510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580403462831" />
-    <state width="1493" height="303" key="GridCell.Tab.1.center" timestamp="1580403462831">
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
+    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1580667358510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580403462831" />
-    <state width="1493" height="303" key="GridCell.Tab.1.left" timestamp="1580403462831">
+    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
+    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1580667358510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580403462831" />
-    <state width="1493" height="303" key="GridCell.Tab.1.right" timestamp="1580403462831">
+    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1580667358510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580403462831" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1580299679305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -271,10 +281,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1580052436334" />
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1580464617748">
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1580651585227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580464617748" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580651585227" />
     <state x="407" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580297662760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -287,6 +297,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1580464780997" />
+    <state x="511" y="32" key="refactoring.ChangeSignatureDialog" timestamp="1580652076810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="32" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1580652076810" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1580143057106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -295,6 +309,200 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580292207903" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>247</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>248</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>252</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>253</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>255</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java</url>
+          <line>71</line>
+          <properties class="java.lang.Iterable" method="forEach">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
