@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f8a68e-216c-49ce-8ea5-8e4d5f350fce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab_hm_Lambda/src/main/java/thirdtask/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_collection_part_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_collection_part_2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_collection_part_2/src/main/java/mytreemap/MyTreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyMaine.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyMaine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/priorityqueue/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/addstringtointeger/AddString.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_hm_generic+collection/src/main/java/addstringtointeger/AddString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,13 +86,13 @@
       <recent name="C:\Users\taras\IdeaProjects\Java_Lab_OOP\lab.epam.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="AddString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addstringtointeger.AddString" />
-      <module name="lab_hm_generic+collection" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thirdtask.Main" />
+      <module name="lab_hm_Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addstringtointeger.*" />
+          <option name="PATTERN" value="thirdtask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="consolemenu.Main" />
-      <module name="lab_hm_collection_part_2" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="secondtask.Main" />
+      <module name="lab_hm_Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="consolemenu.*" />
+          <option name="PATTERN" value="secondtask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainShip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="shipwithdroid.MainShip" />
-      <module name="lab_hm_generic+collection" />
+    <configuration name="MainSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="firsttask.MainSum" />
+      <module name="lab_hm_Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shipwithdroid.*" />
+          <option name="PATTERN" value="firsttask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.MainSum" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyMaine" />
-        <item itemvalue="Application.AddString" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MainShip" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +188,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="72" key="#Main_(1)/0.0.1536.824@0.0.1536.824" timestamp="1579796331011" />
+    <state x="361" y="72" key="#Notifications" timestamp="1580676548642">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1580676548642" />
     <state x="485" y="72" key="#Play" timestamp="1579796557186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -201,26 +204,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1580301894350" />
-    <state x="520" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580049087034">
+    <state x="520" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580667884558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="520" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580049087034" />
-    <state x="945" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1580661487448">
+    <state x="520" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580667884558" />
+    <state x="945" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1580678309454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="945" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580661487448" />
+    <state x="945" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580678309454" />
     <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579794732512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1579794732512" />
-    <state x="564" y="273" width="408" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580309134401">
+    <state x="564" y="273" width="408" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580680676493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="564" y="273" width="408" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580309134401" />
-    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580655891803">
+    <state x="564" y="273" width="408" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580680676493" />
+    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580674974924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1580655891803" />
+    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1580674974924" />
     <state x="499" y="160" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580127526866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -237,38 +240,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579795527185" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1580667358510">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1580687951991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1580667358510">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580687951991" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1580687951991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1580667358510">
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580687951991" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1580687951991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1580667358510">
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580687951991" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1580687951991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
-    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1580667358510">
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580687951991" />
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1580685098167">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
-    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1580667358510">
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580685098167" />
+    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1580685098167">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
-    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1580667358510">
+    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580685098167" />
+    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1580685098167">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
-    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1580667358510">
+    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580685098167" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1580685098167">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580667358510" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580685098167" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1580299679305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -281,10 +284,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1580052436334" />
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1580651585227">
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1580672014375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580651585227" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580672014375" />
     <state x="407" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580297662760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -293,18 +296,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1580298272799" />
-    <state x="209" y="34" key="new project wizard" timestamp="1580464780997">
+    <state x="209" y="34" key="new project wizard" timestamp="1580667815678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1580464780997" />
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1580667815678" />
     <state x="511" y="32" key="refactoring.ChangeSignatureDialog" timestamp="1580652076810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="32" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1580652076810" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1580143057106">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1580684867299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580143057106" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580684867299" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580292207903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

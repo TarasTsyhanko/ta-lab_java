@@ -14,6 +14,7 @@
         <module name="lab.epam.exceptions" />
         <module name="epam (1)" />
         <module name="epam (2)" />
+        <module name="lab_hm_Lambda" />
         <module name="lab_hm_collection_part_2" />
       </profile>
       <profile name="Annotation profile for lab." enabled="true">
