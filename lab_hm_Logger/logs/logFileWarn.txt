@@ -1,3 +1,0 @@
-[DEBUG] 2020-02-07 14:30:06.376 MainLogger:11 - This Will Be Printed On Debug 
-[INFO ] 2020-02-07 14:30:06.392 MainLogger:12 - This Will Be Printed On Info 
-[INFO ] 2020-02-07 14:30:06.392 MainLogger:16 - Appending string: Hello, World. 

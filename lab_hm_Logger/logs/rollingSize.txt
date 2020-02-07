@@ -1,6 +1,0 @@
-[DEBUG] 2020-02-07 14:30:06.376 MainLogger:11 - This Will Be Printed On Debug
-[INFO ] 2020-02-07 14:30:06.392 MainLogger:12 - This Will Be Printed On Info
-[WARN ] 2020-02-07 14:30:06.392 MainLogger:13 - This Will Be Printed On Warn
-[ERROR] 2020-02-07 14:30:06.392 MainLogger:14 - This Will Be Printed On Error
-[FATAL] 2020-02-07 14:30:06.392 MainLogger:15 - This Will Be Printed On Fatal
-[INFO ] 2020-02-07 14:30:06.392 MainLogger:16 - Appending string: Hello, World.
