@@ -1,4 +1,9 @@
-idea/
+.idea/
 target/
 .iml*
 .xml*
+.idea/*compiler.xml
+.idea/*modules.xml
+.idea/*workspace.xml
+
+/.idea
