@@ -1,3 +1,0 @@
-[WARN ] 2020-01-22 14:48:49.451 [main] MainLogger - This Will Be Printed On Warn
-[ERROR] 2020-01-22 14:48:49.451 [main] MainLogger - This Will Be Printed On Error
-[FATAL] 2020-01-22 14:48:49.451 [main] MainLogger - This Will Be Printed On Fatal
