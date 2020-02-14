@@ -11,5 +11,4 @@ public abstract class Product {
     public int getNumber() {
         return number;
     }
-
 }
