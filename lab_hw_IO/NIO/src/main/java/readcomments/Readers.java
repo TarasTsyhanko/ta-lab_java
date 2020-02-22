@@ -30,9 +30,13 @@ public class Readers {//read comment in java file without REGEX
     private static String catchComment(String line, BufferedReader read) throws IOException {
         if (line == null) return null;
         if (line.length() < 3) return "";
+        line = line.trim();
         if (line.contains("//")) {
-            String[] comment = line.split("//");
-            return comment[comment.length - 1];
+            if(line.substring(0,2).equals("//")) {
+                return line.substring(2);
+            }
+            String[] str = line.split("//");
+            return str[str.length-1];
 
         } else if (line.contains("/*")) {
             line = line.trim();
