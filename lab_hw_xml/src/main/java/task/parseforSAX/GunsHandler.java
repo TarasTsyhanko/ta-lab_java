@@ -23,7 +23,7 @@ public class GunsHandler extends DefaultHandler {
         if (qName.equalsIgnoreCase("Guns")) {
             LOG.info("Element :" + qName);
         }
-        if (qName.equalsIgnoreCase("model")) {
+        if (qName.equalsIgnoreCase("task.model")) {
             bModel = true;
         } else if (qName.equalsIgnoreCase("handy")) {
             bHandy = true;

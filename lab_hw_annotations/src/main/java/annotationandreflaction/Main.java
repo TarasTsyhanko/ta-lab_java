@@ -5,7 +5,7 @@ import annotationandreflaction.myclasses.MyClass;
 import annotationandreflaction.myclasses.Person;
 
 public class Main {
-    public static void main(String[] args) throws NoSuchFieldException {
+    public static void main(String[] args){
         Reflactions reflactions = new Reflactions();
         Person person = new Person("Ivan", "JavaScriper", 20, Gender.MALE);
         reflactions.setNationality(person);

@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class Reflactions {
-    private static final Logger LOG = LogManager.getLogger(Main.class);
+    private static final Logger LOG = LogManager.getLogger(Reflactions.class);
 
     public void printFieldInformation(Person person) {
         for (Field fields : person.getClass().getDeclaredFields()) {

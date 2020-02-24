@@ -32,23 +32,43 @@ public class Readers {//read comment in java file without REGEX
         if (line.length() < 3) return "";
         line = line.trim();
         if (line.contains("//")) {
-            if(line.substring(0,2).equals("//")) {
-                return line.substring(2);
+            if (line.substring(0, 2).equals("//")) {
+                return line;
+            }else if(line.contains(";")) {
+                line = line.substring(line.lastIndexOf(";"));
+                if(!line.isEmpty()){
+                    String[] str = line.split("//");
+                    String s = "";
+                    for (int i = 1;i<str.length;i++){
+                        s = s+str[i];
+                    }
+                    return s;
+                }
             }
             String[] str = line.split("//");
-            return str[str.length-1];
-
+            return str[str.length - 1];
         } else if (line.contains("/*")) {
-            line = line.trim();
-            String str;
-            StringBuilder builder = new StringBuilder(line.substring(3)).append("\n");
-            while ((str = read.readLine()) != null) {
-                if (str.contains("*/")) {
-                    builder.append(str.trim());
-                    return builder.toString();
+            if (line.contains("*/") && line.indexOf("/*") < line.indexOf("*/")) {
+                if(line.indexOf("/*")==0){
+                    return line.substring(line.lastIndexOf("/*"), line.indexOf("*/"));
+                }else if (line.substring(line.length()-2).equals("*/")){
+                  for (int i =line.length()-2;i>0;i--){
+                      if (line.substring(i-2,i).equals("/*")){
+                          return line.substring(i-2);
+                      }
+                  }
                 }
-                if (!str.isEmpty()) {
-                    builder.append(str.trim()).append("\n");
+            } else {
+                String str;
+                StringBuilder builder = new StringBuilder(line.substring(3)).append("\n");
+                while ((str = read.readLine()) != null) {
+                    if (str.contains("*/")) {
+                        builder.append(str.trim());
+                        return builder.toString();
+                    }
+                    if (!str.isEmpty()) {
+                        builder.append(str.trim()).append("\n");
+                    }
                 }
             }
         }

@@ -29,7 +29,7 @@ public class Main {
             List<Guns> gunsList = mapper.readValue(input, typeReference);
             gunsList = gunsList.stream().filter(e -> e.getModel() != null).collect(Collectors.toList());
             for (Guns guns : gunsList) {
-                LOG.info("model: " + guns.getModel() + " handle: " + guns.getHandy() + " origin: " + guns.getOrigin()
+                LOG.info("task.model: " + guns.getModel() + " handle: " + guns.getHandy() + " origin: " + guns.getOrigin()
                         + " carry: " + guns.getTtc().getCarry() + " sightingRange: " + guns.getTtc().getSightingRange()
                         + " clamp: " + guns.getTtc().isClamp() + " optics: " + guns.getTtc().isClamp() + " material: " + guns.getMaterial());
             }

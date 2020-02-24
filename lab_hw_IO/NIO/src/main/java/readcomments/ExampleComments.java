@@ -8,10 +8,15 @@ public class ExampleComments {
     //that is why that class has no any logic
     /* another type of comment
     java java java
+*/
 
+    String str = "March/* month of the year */";/*february month*/
+    /* java comment",la ,la"*/
+    /** hello world
+     *
      */
     private void doSomething(){
-        System.out.println("//this is not a comment");
-        System.out.println("/*do not catch it*/");
+        System.out.println("//this is not a comment");//boom
+        System.out.println("/* do not catch it */");
     }
 }

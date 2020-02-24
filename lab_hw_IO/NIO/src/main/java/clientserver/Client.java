@@ -18,8 +18,8 @@ public class Client {
         DataInputStream d = new DataInputStream(socket.getInputStream());
         StringBuilder sb = new StringBuilder();
         while (d.available()>0){
-            char ch = d.readChar();
-            sb.append(ch);
+            byte b = d.readByte();
+            sb.append((char)b);
         }
         LOG.info("server: " + sb.toString());
 

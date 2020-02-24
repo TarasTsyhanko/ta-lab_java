@@ -1,5 +1,6 @@
 package cmd;
 
+import constant.MyProperties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -9,8 +10,9 @@ public class Cmd {
     private static final Logger LOG = LogManager.getLogger(Cmd.class);
 
     public Cmd() {
-        MyDisks.setFiles(new File("C:\\"));
-        LOG.info("C:\\>");
+        File file = new File(new MyProperties().getProperty("my_disk_c"));
+        MyDisks.setFiles(file);
+        LOG.info(file.getAbsolutePath());
     }
 
     public void dir() {
@@ -34,8 +36,9 @@ public class Cmd {
                 LOG.info(file.getParentFile().getParentFile().getAbsolutePath());
                 break;
             } else if (directory.equals("/")) {
-                MyDisks.setFiles( new File("C:\\"));
-                LOG.info("C:\\>");
+                File f = new File(new MyProperties().getProperty("my_disk_c"));
+                MyDisks.setFiles(f);
+                LOG.info(f.getAbsolutePath());
                 break;
             } else if (file.getName().equals(directory) && file.isFile()) {
                 LOG.info("The directory name is invalid.");

@@ -4,47 +4,39 @@ import java.io.Serializable;
 import java.util.Objects;
 public class Droid implements Serializable {
     private String name;
-    private transient Blaster blaster;
+    private transient  Blaster blaster;
     private Type type;
     private int creationYear;
+    private static int currentYear;                 //  static field not serializable
+    private static final long serialVersionUID =7L;
 
-    public Droid(String name, Blaster blaster, Type type, int creationYear) {
+    public Droid(String name, Blaster blaster, Type type, int creationYear,int currentYear) {
         this.name = name;
         this.blaster = blaster;
         this.type = type;
         this.creationYear = creationYear;
+        this.currentYear = currentYear;
+    }
+
+
+    public static int getCurrentYear() {
+        return currentYear;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Blaster getBlaster() {
         return blaster;
-    }
-
-    public void setBlaster(Blaster blaster) {
-        this.blaster = blaster;
     }
 
     public Type getType() {
         return type;
     }
 
-    public void setType(Type type) {
-        this.type = type;
-    }
-
     public int getCreationYear() {
         return creationYear;
-    }
-
-    public void setCreationYear(int creationYear) {
-        this.creationYear = creationYear;
     }
 
     public String toString() {
