@@ -1,0 +1,26 @@
+[
+  {
+    "model": "AK-47",
+    "handy": "TWO_HANDED",
+    "origin": "UKRAINE",
+    "ttc": {
+      "carry": "MIDDLE",
+      "sightingRange": "240",
+      "clamp": "true",
+      "optics": "false"
+    },
+    "material": "LEAD"
+  },
+  {
+    "model": "TD-54 Bazuka",
+    "handy": "TWO_HANDED",
+    "origin": "FRENCH",
+    "ttc": {
+      "carry": "MIDDLE",
+      "sightingRange": "240",
+      "clamp": "false",
+      "optics": "false"
+    },
+    "material": "IRON"
+  }
+]
