@@ -2,7 +2,7 @@ package com.epam.sql.app.factory.impl;
 
 import com.epam.sql.app.scaner.MyConsole;
 import com.epam.sql.app.enums.Action;
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.entity.ClientAccount;
 import com.epam.sql.banksystem.service.ClientAccountService;
 import com.epam.sql.app.enums.ClientType;
@@ -34,7 +34,7 @@ public class ActionFactoryImpl implements ActionFactory {
                 String parole = MyConsole.readString();
                 try {
                     account = new ClientAccountService().openAccount(login, parole);
-                } catch (InfoException  | IllegalArgumentException e) {
+                } catch (SQLInfoException | IllegalArgumentException e) {
                     b = true;
                     log.error("Exception msg " + e.getMessage());
                 }
@@ -43,7 +43,7 @@ public class ActionFactoryImpl implements ActionFactory {
             log.info("Select your status:\n - BANK\n - PERSON");
             try {
                 account = new AccountFactory().createAccount(ClientType.valueOf(MyConsole.readString().toUpperCase()));
-            } catch (InfoException | IllegalArgumentException e) {
+            } catch (SQLInfoException | IllegalArgumentException e) {
                 log.info("Exception msg : " + e.getMessage());
             }
         }

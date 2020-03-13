@@ -12,4 +12,7 @@ public class PropConstants {
     public static final String DB_USER = "mysql.user";
     public static final String DB_PASSWORD = "mysql.password";
     public static final String DB_HOST = "mysql.host";
+
+    private PropConstants() {
+    }
 }

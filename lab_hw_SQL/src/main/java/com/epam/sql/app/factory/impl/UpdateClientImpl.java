@@ -2,7 +2,7 @@ package com.epam.sql.app.factory.impl;
 
 import com.epam.sql.app.scaner.MyConsole;
 import com.epam.sql.app.factory.UpdateClientFactory;
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.service.BankService;
 import com.epam.sql.banksystem.service.PersonService;
 import com.epam.sql.banksystem.entity.Bank;
@@ -33,7 +33,7 @@ public class UpdateClientImpl implements UpdateClientFactory {
                 client = new PersonService().updatePerson(updatePerson(upClient));
             }
             return client;
-        } catch (InfoException e) {
+        } catch (SQLInfoException e) {
             log.info("Exception msg :" + e.getMessage());
         }
         return client;

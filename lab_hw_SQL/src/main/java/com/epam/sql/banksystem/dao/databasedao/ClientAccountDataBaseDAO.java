@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 import static com.epam.sql.banksystem.config.CrudOperationConstants.*;
 
-public class ClientAccountDataBaseDAO implements ClientAccountDAO {
+public class ClientAccountDataBaseDAO implements ClientAccountDAO<ClientAccount> {
     private static Logger log = LogManager.getLogger(BankDataBaseDAO.class);
 
     public ClientAccount getAccountByIDClient(int IdClient) {

@@ -1,19 +1,17 @@
 package com.epam.sql.banksystem.dao;
 
-import com.epam.sql.banksystem.entity.Person;
-
 import java.util.List;
 
-public interface PersonDAO {
-    List<Person> getAllPerson();
+public interface PersonDAO<T> {
+    List<T> getAllPerson();
 
-    Person getPersonByName(String firstName, String lastName);
+    T getPersonByName(String firstName, String lastName);
 
-    void insertPerson(Person person);
+    void insertPerson(T t);
 
-    void updatePerson(Person person);
+    void updatePerson(T t);
 
-    void deletePerson(Person person);
+    void deletePerson(T t);
 
-    public boolean isPersonExists(String firstName, String lastName);
+     boolean isPersonExists(String firstName, String lastName);
 }

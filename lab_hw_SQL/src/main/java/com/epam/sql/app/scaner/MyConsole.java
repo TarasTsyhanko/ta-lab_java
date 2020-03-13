@@ -12,6 +12,9 @@ import java.util.Scanner;
 public class MyConsole {
     private static Logger log = LogManager.getLogger(MyConsole.class);
 
+    private MyConsole() {
+    }
+
     public static int readInt() {
         do {
             Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package com.epam.sql.banksystem.service;
 
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.dao.*;
 import com.epam.sql.banksystem.dao.databasedao.*;
 import com.epam.sql.banksystem.entity.*;
@@ -11,43 +11,43 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class BankService {
-    private BankDAO bankDAO;
-    private OperationDAO operationDAO;
+    private BankDAO<Bank> bankDAO;
+    private OperationDAO<Operation> operationDAO;
 
     public BankService() {
         bankDAO = new BankDataBaseDAO();
         operationDAO = new OperationDataBaseDAO();
     }
 
-    public Bank getBankByName(String name) throws InfoException {
+    public Bank getBankByName(String name) throws SQLInfoException {
         if (bankDAO.isBankExists(name)) {
             return bankDAO.getAllBanks().stream().filter(bank -> bank.getName().equals(name)).collect(Collectors.toList()).get(0);
         } else {
-            throw new InfoException("This bank is absent");
+            throw new SQLInfoException("This bank is absent");
         }
     }
 
-    public Bank getBankById(int id) throws InfoException {
+    public Bank getBankById(int id) throws SQLInfoException {
         List<Bank> banks = bankDAO.getAllBanks().stream().filter(bank -> bank.getId() == id).collect(Collectors.toList());
         if(!banks.isEmpty()){
             return banks.get(0);
-        }else throw new InfoException("There aren't banks in Data Base");
+        }else throw new SQLInfoException("There aren't banks in Data Base");
     }
 
     public List<Bank> getAllBanks() {
         return bankDAO.getAllBanks();
     }
 
-    public Bank insertBank(@NotNull Bank bank) throws InfoException {
+    public Bank insertBank(@NotNull Bank bank) throws SQLInfoException {
         if (!(bankDAO.isBankExists(bank.getName()))) {
             bankDAO.insertBank(bank);
             return getBankByName(bank.getName());
         } else {
-            throw new InfoException("This bank already exists");
+            throw new SQLInfoException("This bank already exists");
         }
     }
 
-    public Bank updateBank(Bank bank) throws InfoException {
+    public Bank updateBank(Bank bank) throws SQLInfoException {
         OperationService service = new OperationService();
         Bank bankDB = getBankById(bank.getId());
         if (!bank.getName().equals(bankDB.getName())) {
@@ -66,7 +66,7 @@ public class BankService {
     }
 
 
-    public void deleteBank(@NotNull Bank bank) throws InfoException {
+    public void deleteBank(@NotNull Bank bank) throws SQLInfoException {
         if (bankDAO.isBankExists(bank.getName())) {
             List<Operation> loanList = new OperationService().getAllOperationIByClient(bank.getIdClient());
             if (!loanList.isEmpty()) {
@@ -78,7 +78,7 @@ public class BankService {
             }
             bankDAO.deleteBank(bank);
         } else {
-            throw new InfoException("This bank is absent");
+            throw new SQLInfoException("This bank is absent");
         }
     }
 }

@@ -1,17 +1,15 @@
 package com.epam.sql.banksystem.dao;
 
-import com.epam.sql.banksystem.entity.Bank;
-
 import java.util.List;
 
-public interface BankDAO {
-    List<Bank> getAllBanks();
+public interface BankDAO<T> {
+    List<T> getAllBanks();
 
-    void insertBank(Bank bank);
+    void insertBank(T t);
 
-    void updateBank(Bank bank);
+    void updateBank(T t);
 
-    void deleteBank(Bank bank);
+    void deleteBank(T t);
 
     boolean isBankExists(String name);
 }

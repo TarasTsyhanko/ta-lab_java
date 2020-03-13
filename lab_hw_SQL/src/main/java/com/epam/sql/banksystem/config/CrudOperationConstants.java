@@ -26,6 +26,6 @@ public class CrudOperationConstants {
 
     public static final String SET_FOREIGN_KEY_CHECKS = "SET FOREIGN_KEY_CHECKS =";
 
-
-
+    private CrudOperationConstants() {
+    }
 }

@@ -1,7 +1,7 @@
 package com.epam.sql.app.factory.impl;
 
 import com.epam.sql.app.scaner.MyConsole;
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.entity.ClientAccount;
 import com.epam.sql.banksystem.service.ClientAccountService;
 import com.epam.sql.banksystem.entity.Client;
@@ -20,7 +20,7 @@ import org.apache.logging.log4j.Logger;
 public class AccountFactory {
     private static Logger log = LogManager.getLogger(AccountFactory.class);
 
-    public ClientAccount createAccount(ClientType type) throws InfoException {
+    public ClientAccount createAccount(ClientType type) throws SQLInfoException {
         Client client = new ClientFactoryImpl().createClient(type);
         ClientAccount account = new ClientAccount();
         account.setIDClient(client.getIdClient());

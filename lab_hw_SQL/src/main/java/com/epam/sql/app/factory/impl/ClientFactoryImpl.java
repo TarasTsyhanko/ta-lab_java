@@ -2,7 +2,7 @@ package com.epam.sql.app.factory.impl;
 
 import com.epam.sql.app.scaner.MyConsole;
 import com.epam.sql.app.factory.ClientFactory;
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.entity.Location;
 import com.epam.sql.banksystem.service.BankService;
 import com.epam.sql.banksystem.service.PersonService;
@@ -22,7 +22,7 @@ import org.apache.logging.log4j.Logger;
 public class ClientFactoryImpl implements ClientFactory {
     private static Logger log = LogManager.getLogger(ClientFactoryImpl.class);
     @Override
-    public Client createClient(ClientType type) throws InfoException {
+    public Client createClient(ClientType type) throws SQLInfoException {
         Client client = null;
         if (ClientType.BANK == type) {
             client = new BankService().insertBank(createBank());

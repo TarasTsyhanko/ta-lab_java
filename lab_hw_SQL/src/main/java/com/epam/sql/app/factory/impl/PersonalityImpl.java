@@ -1,7 +1,7 @@
 package com.epam.sql.app.factory.impl;
 
 import com.epam.sql.app.factory.Personality;
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.service.BankService;
 import com.epam.sql.banksystem.service.PersonService;
 import com.epam.sql.banksystem.entity.Client;
@@ -24,7 +24,7 @@ public class PersonalityImpl implements Personality {
         Client client = null;
         try {
             client = new PersonService().getPersonById(IdClient);
-        } catch (InfoException e) {
+        } catch (SQLInfoException e) {
             log.error("Exception msg :"+e.getMessage());
         }
         if (client!=null) {
@@ -32,7 +32,7 @@ public class PersonalityImpl implements Personality {
             } else {
             try {
                 client= new BankService().getBankById(IdClient);
-            } catch (InfoException e) {
+            } catch (SQLInfoException e) {
                 log.error("Exception msg :"+e.getMessage());
             }
         }

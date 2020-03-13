@@ -5,7 +5,7 @@ import com.epam.sql.app.enums.ClientType;
 import com.epam.sql.app.factory.*;
 import com.epam.sql.app.factory.impl.*;
 import com.epam.sql.app.scaner.MyConsole;
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.entity.*;
 import com.epam.sql.banksystem.service.BankService;
 import com.epam.sql.banksystem.service.ClientAccountService;
@@ -46,7 +46,7 @@ public class App {
     }
 
     public void logInAccount() {
-        log.info("         Welcome to com.epam.sql.app.App");
+        log.info("         Welcome to App");
         log.info("Press - 1 - to REGISTRATION\n Press - 2 - to LOG IN");
         int number = MyConsole.readInt();
         if (number == 1) {
@@ -108,7 +108,7 @@ public class App {
     public void downloadOperations() {
         try {
             operationList = new OperationService().getAllOperationIByClient(client.getIdClient());
-        } catch (InfoException e) {
+        } catch (SQLInfoException e) {
             log.info("Exception message : " + e.getMessage());
         }
         if (client.getClientType() == ClientType.BANK) {
@@ -145,7 +145,7 @@ public class App {
             int n = MyConsole.readInt() - 1;
             operationService.deleteOperation(operationList.get(n));
             operationList.remove(n);
-        } catch (InfoException | IndexOutOfBoundsException e) {
+        } catch (SQLInfoException | IndexOutOfBoundsException e) {
             log.error("Exception msg:" + e.getMessage());
         }
     }

@@ -18,7 +18,7 @@ import java.util.List;
 
 import static com.epam.sql.banksystem.config.CrudOperationConstants.*;
 
-public class OperationDataBaseDAO implements OperationDAO {
+public class OperationDataBaseDAO implements OperationDAO<Operation> {
     private static Logger log = LogManager.getLogger(OperationDataBaseDAO.class);
 
     @Override

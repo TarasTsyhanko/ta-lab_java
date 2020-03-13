@@ -1,19 +1,17 @@
 package com.epam.sql.banksystem.dao;
 
-import com.epam.sql.banksystem.entity.Operation;
-
 import java.util.List;
 
-public interface OperationDAO {
-    List<Operation> getAllOperation();
+public interface OperationDAO<T> {
+    List<T> getAllOperation();
 
-    Operation getOperationByID(int loanID);
+    T getOperationByID(int loanID);
 
-    void insertOperation(Operation operation);
+    void insertOperation(T t);
 
-    void updateOperation(Operation operation);
+    void updateOperation(T t);
 
-    void deleteOperation(Operation operation);
+    void deleteOperation(T t);
 
-    boolean isClientHasAlreadyLoan(Operation operation);
+    boolean isClientHasAlreadyLoan(T t);
 }

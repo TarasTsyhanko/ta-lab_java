@@ -1,15 +1,13 @@
 package com.epam.sql.banksystem.dao;
 
-import com.epam.sql.banksystem.entity.ClientAccount;
+public interface ClientAccountDAO<T> {
+    void deleteAccount(T t);
 
-public interface ClientAccountDAO {
-    void deleteAccount(ClientAccount account);
+    void updateAccount(T t);
 
-    void updateAccount(ClientAccount account);
+    void insertAccount(T t);
 
-    void insertAccount(ClientAccount account);
+    T openAccountByLoginAndParole(int login, String parole);
 
-    ClientAccount openAccountByLoginAndParole(int login, String parole);
-
-    ClientAccount getAccountByIDClient(int IdClient);
+    T getAccountByIDClient(int IdClient);
 }

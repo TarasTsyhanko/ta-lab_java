@@ -2,7 +2,7 @@ package com.epam.sql.app.factory.impl;
 
 import com.epam.sql.app.enums.ClientType;
 import com.epam.sql.app.factory.DeleteFactory;
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.entity.Bank;
 import com.epam.sql.banksystem.entity.Client;
 import com.epam.sql.banksystem.entity.Person;
@@ -31,7 +31,7 @@ public class DeleteFactoryImpl implements DeleteFactory {
                 Person person = (Person) client;
                 new PersonService().deletePerson(person);
             }
-        } catch (InfoException e) {
+        } catch (SQLInfoException e) {
             log.error("Exception msg :"+e.getMessage());
         }
     }

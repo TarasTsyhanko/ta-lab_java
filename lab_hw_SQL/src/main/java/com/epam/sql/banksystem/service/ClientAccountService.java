@@ -1,6 +1,6 @@
 package com.epam.sql.banksystem.service;
 
-import com.epam.sql.banksystem.config.exception.InfoException;
+import com.epam.sql.banksystem.config.exception.SQLInfoException;
 import com.epam.sql.banksystem.dao.ClientAccountDAO;
 import com.epam.sql.banksystem.dao.databasedao.ClientAccountDataBaseDAO;
 import com.epam.sql.banksystem.entity.ClientAccount;
@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ClientAccountService {
     private static Logger log = LogManager.getLogger(ClientAccountService.class);
-    private ClientAccountDAO clientAccountDAO;
+    private ClientAccountDAO<ClientAccount> clientAccountDAO;
     private OperationService operationService;
 
     public ClientAccountService() {
@@ -25,10 +25,10 @@ public class ClientAccountService {
         return clientAccountDAO.getAccountByIDClient(account.getIDClient());
     }
 
-    public ClientAccount openAccount(int login, String parole) throws InfoException {
+    public ClientAccount openAccount(int login, String parole) throws SQLInfoException {
         ClientAccount account = clientAccountDAO.openAccountByLoginAndParole(login, parole);
         if (account.getLogin() != login) {
-            throw new InfoException("Parole or login are bad, try again");
+            throw new SQLInfoException("Parole or login are bad, try again");
         }
         return account;
     }
@@ -42,14 +42,14 @@ public class ClientAccountService {
         List<Operation> operationList = null;
         try {
             operationList = new OperationService().getAllOperationIByClient(account.getIDClient());
-        } catch (InfoException e) {
+        } catch (SQLInfoException e) {
             log.error("Exception msg :"+e.getMessage());
         }
         if(operationList!=null){
             operationList.forEach(operation -> {
                 try {
                     operationService.deleteOperation(operation);
-                } catch (InfoException e) {
+                } catch (SQLInfoException e) {
                     log.error("Exception msg :"+e.getMessage());
                 }
             });
