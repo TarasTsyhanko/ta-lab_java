@@ -7,7 +7,11 @@ target/
 .idea/*workspace.xml
 
 /.idea
+/hm.OOP/*epam (1).iml
+/lab_game/epam (2).iml
+
 /lab_hm_Lambda
 /lab_hm_generic+collection
 /lab_Arrays
 /lab_hm_collection_part_2
+/lab_hm_string/pom.xml
